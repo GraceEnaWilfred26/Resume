@@ -88,10 +88,41 @@ li {
   display: inline;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
+ul	{
+  		margin: 0;
+		padding: 0;
 }
+
+
+p	{
+
+	text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #f2f2f2;
+}
+
+.flex-container > div {
+  background-color: #021443;
+  width: 200px;
+  margin: 12px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 15px;
+}
+
+div {
+  background-color: #65676C;
+  animation-name: example;
+  animation-duration: 4s;
+}
+@keyframes example {
+  from {background-color: #65676C;}
+  to {background-color: #021443;}
+}	
 	
 </style>
 </head>
@@ -99,9 +130,8 @@ ul {
 	<img src="Task 1-Image Header (grace personal website) (1).png" alt="Grace Ena" style="width:100%;height:fixed;">
 </body>
 <body>
-<ul>
 	<div class="topnav">
-	<li><a href="About Me.html" style="float:left"><i><b>About Me</i></b></li></a>
+	<li><a href="index.html" style="float:left"><i><b>About Me</i></b></li></a>
 	<li><a href="Personal Details.html" style="float:left"><i><b>Personal Details</i></b></li></a>
 	<li><a href="Career Objective.html" style="float:left"><i><b>Career Objective</i></b></li></a>
 	<li><a href="Educational Background.html" style="float:left"><i><b>Educational Background</i></b></li></a>
@@ -116,36 +146,24 @@ ul {
 <body>
 <fieldset>
 
-	<div style="background-color: #021443; color: white; padding: 60px;">
+	<div style="background-color: #021443; color: white; padding: 60px; font-size: 18px; border: #65676C">
 	<h1 style = "font-family: arial; color: white; text-align:  
-center; font-size 12px; text-shadow: 2px 2px 3px white;"> Personal Details</h1>
+center; text-shadow: 2px 2px 4px #65676C;">Skills</h1>
 	
-	<p style = "font-family: berlin; color: white; font-size 12px;">Name 	: Grace Ena Wilfred</p>
+<div class="flex-container">
+	<div>Able to work under pressure and able to work in a team</div>
+	<div>Has knowledge in marketing strategies</div>
+	<div>Has a technical skill in Microsoft Office and Excel</div>
+	<div>Able to lead and motivate the team</div>
+	<div>Able to speak in Malay and English</div>
 	
-	<p style = "font-family: berlin; color: white; font-size 12px;">Age	: 21 Years Old</p>
-
-	<p style = "font-family: berlin; color: white; font-size 12px;">Race	: Christian</p>
 	
-	<p style = "font-family: berlin; color: white; font-size 12px;">Religion : Bidayuh</p>
-	
-	<p style = "font-family: berlin; color: white; font-size 12px;">Nationality :  Malaysia</p>
-	
-	<p style ="font-family: berlin; color: white; font-size 12px;">Date of Birth :  26 October 1999</p>
-	
-	<p style ="font-family: berlin; color: white; font-size 12px;"><b>Address :  No 23,Phase 6, Taman Putra Jaya,
-Jalan Tun Hussein Onn, 97000, Bintulu, Sarawak</p>
-	
-	<p style ="font-family: berlin; color: white; font-size 12px;">Contact Number :  01116445799</p>
-	
-	<p style ="font-family: berlin; color: white; font-size 12px;">Email Address : <i>graceeyna08@gmail.com</i></p>
-
-	<p style ="font-family: berlin; color: white; font-size 12px;">Marital Status :  Single</p>
 </div>
 </body>	
 </fieldset>
 
 <footer>
-	<p> Powered by W3.CSS</p>
+	<p>Full Copyright© by Grace Ena Wilfred</p>
 </footer>
 </html>
 	

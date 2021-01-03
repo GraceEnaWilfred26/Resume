@@ -131,7 +131,7 @@ div {
 </body>
 <body>
 	<div class="topnav">
-	<li><a href="Index.html" style="float:left"><i><b>About Me</i></b></li></a>
+	<li><a href="index.html" style="float:left"><i><b>About Me</i></b></li></a>
 	<li><a href="Personal Details.html" style="float:left"><i><b>Personal Details</i></b></li></a>
 	<li><a href="Career Objective.html" style="float:left"><i><b>Career Objective</i></b></li></a>
 	<li><a href="Educational Background.html" style="float:left"><i><b>Educational Background</i></b></li></a>
