@@ -14,10 +14,10 @@
 	}
 	nav {
 		float: left;
-		width: fixed
+		width: 30%
 		height: 300px;
 		background-color: #7FB3D5;
-		padding: 900px;
+		padding: 20px;
 	}
 	nav ul {
 		list-style-type: none;
@@ -28,7 +28,7 @@
 		 width: 70%;
 		 height: 300px;
 		 background-color: #D1F2EB;
-		 padding: 90px;
+		 padding: 20px;
 	}
 	section:after {
 			content:" ";
@@ -93,7 +93,46 @@ ul {
   padding: 0;
 }
 
-	
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+
+}
+
+.education	{
+
+	background-color: #021443;
+	color:	white;
+	border: 2px solid #65676C;
+	margin: 20px
+	padding: 20px
+}
+
+div {
+  background-color: #65676C;
+  animation-name: example;
+  animation-duration: 4s;
+}
+@keyframes example {
+  from {background-color: #65676C;}
+  to {background-color: #021443;}
+}		
 </style>
 </head>
 <body>
@@ -102,7 +141,7 @@ ul {
 <body>
 <ul>
 	<div class="topnav">
-	<li><a href="Index.html" style="float:left"><i><b>About Me</i></b></li></a>
+	<li><a href="index.html" style="float:left"><i><b>About Me</i></b></li></a>
 	<li><a href="Personal Details.html" style="float:left"><i><b>Personal Details</i></b></li></a>
 	<li><a href="Career Objective.html" style="float:left"><i><b>Career Objective</i></b></li></a>
 	<li><a href="Educational Background.html" style="float:left"><i><b>Educational Background</i></b></li></a>
@@ -110,52 +149,48 @@ ul {
 	<li><a href="Skills.html" style="float:left"><i><b>Skills</i><b><li></a>
 	<li><a href="Achievements.html" style="float:left"><i><b>Achievements</i></b></li></a>
 </ul>
-
 </div>
 </body>	
 
+
 <body>
 <fieldset>
+	<div class="education">
+	<div style="background-color: #021443; color: white; padding: fixed;">
+	<h1 style = "arial; color: white; text-align:  
+center; font-size 12px; text-shadow: 2px 2px 3px #65676C;">Educational Background</h1>
+	
+	
+ 
+   	<h2>2017-2019</h2>
+    	<p>Institution		:University of Technology Mara (UiTM), Campus Kota Samarahan, Sarawak</p>
+	<p>Program Level	: Bachelor’s Degree with Office System Management</p>
+	<p>Graduated		: January 2019</p>
+	<p>Course Related	: Administrative Procedures</p>
+ </div>
+	
+<div class="education">
+    	<h2>2014-2016</h2>
+   	<p>Institution		: University of Technology Mara (UiTM), Campus Mukah, Sarawak</p>
+	<p>Program Level	: Diploma in Business Studies</p>
+	<p>Graduated		: January 2016</p>
+	<p>Courses Related	: Fundamentals of Marketing</p>
+  </div>
 
-	<div style="background-color: #021443; color: white; padding: 20px;">
-	<h1 style = "font-family: century gothic, arial; color: white; text-align:  
-center; font-size 12px;"> About Me</h1>
-	
-	<p style = "font-family: berlin; color: white; font-size 12px;"><b>Title 	:  
-My Resume</b></h2>
-	
-	<p style = "font-family: berlin; color: white; font-size 12px;"><b>Name 	: Grace  
-Ena Wilfred</b></p>
-	
-	<p style = "font-family: berlin; color: white; font-size 12px;"><b>Student ID 	: 2020166237</b></p>
+<div class="education">
+    	<h2>2009-2013</h2>
+    	<p>Institution	: Sekolah Menengah Kebangsaan Bandar Bintulu</p>
+	<p> Level	: Sijil Pelajaran Malaysia(SPM)
+	<p> Graduated	: 2014
+  </div>
+</div>
 
-	<p style = "font-family: berlin; color: white; font-size 12px;"><b>Group	: BA2322C</b></p>
-	
-	<p style = "font-family: berlin; color: white; font-size 12px;"><b>Course Code :  
-IMS456</b></p>
-	
-	<p style ="font-family: berlin; color: white; font-size 12px;"><b>Course Name :  
-Basic Web Design and Content Management</b></p>
-	
-	<p style ="font-family: berlin; color: white; font-size 12px;"><b>Program Code :  
-BA232</b></p>
-	
-	<p style ="font-family: berlin; color: white; font-size 12px;"><b>Faculty :  
-Faculty of Business and Management</b></p>
-	
-	<p style ="font-family: berlin; color: white; font-size 12px;"><b>Submission Date :  
-31 December 2020</b></p>
 
-	<p style ="font-family: berlin; color: white; font-size 12px;"><b>Published URL :  
-27 DECEMBER 2020</b></p>
-
-<img src="image (3).jpg" alt="Grace Ena Wilfred" style="width:12%;height:200px; text-align: center;">
 </body>	
 </fieldset>
 
-
 <footer>
-	<p> Powered by W3.CSS</p>
+	<p>Full Copyright© by Grace Ena Wilfred</p>
 </footer>
 </html>
 	

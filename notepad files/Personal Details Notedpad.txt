@@ -92,47 +92,7 @@ ul {
   margin: 0;
   padding: 0;
 }
-
-/* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 15px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width:600px) {
-  .column {
-    width: 100%;
-  }
-
-}
-
-.education	{
-
-	background-color: #021443;
-	color:	white;
-	border: 2px solid #65676C;
-	margin: 20px
-	padding: 20px
-}
-
-div {
-  background-color: #65676C;
-  animation-name: example;
-  animation-duration: 4s;
-}
-@keyframes example {
-  from {background-color: #65676C;}
-  to {background-color: #021443;}
-}		
+	
 </style>
 </head>
 <body>
@@ -155,42 +115,37 @@ div {
 
 <body>
 <fieldset>
-	<div class="education">
-	<div style="background-color: #021443; color: white; padding: fixed;">
-	<h1 style = "arial; color: white; text-align:  
-center; font-size 12px; text-shadow: 2px 2px 3px #65676C;">Educational Background</h1>
-	
-	
- 
-   	<h2>2017-2019</h2>
-    	<p>Institution		:University of Technology Mara (UiTM), Campus Kota Samarahan, Sarawak</p>
-	<p>Program Level	: Bachelor’s Degree with Office System Management</p>
-	<p>Graduated		: January 2019</p>
-	<p>Course Related	: Administrative Procedures</p>
- </div>
-	
-<div class="education">
-    	<h2>2014-2016</h2>
-   	<p>Institution		: University of Technology Mara (UiTM), Campus Mukah, Sarawak</p>
-	<p>Program Level	: Diploma in Business Studies</p>
-	<p>Graduated		: January 2016</p>
-	<p>Courses Related	: Fundamentals of Marketing</p>
-  </div>
 
-<div class="education">
-    	<h2>2009-2013</h2>
-    	<p>Institution	: Sekolah Menengah Kebangsaan Bandar Bintulu</p>
-	<p> Level	: Sijil Pelajaran Malaysia(SPM)
-	<p> Graduated	: 2014
-  </div>
+	<div style="background-color: #021443; color: white; padding: 60px;">
+	<h1 style = "font-family: arial; color: white; text-align:  
+center; font-size 12px; text-shadow: 2px 2px 3px white;"> Personal Details</h1>
+	
+	<p style = "font-family: berlin; color: white; font-size 12px;">Name 	: Grace Ena Wilfred</p>
+	
+	<p style = "font-family: berlin; color: white; font-size 12px;">Age	: 21 Years Old</p>
+
+	<p style = "font-family: berlin; color: white; font-size 12px;">Race	: Christian</p>
+	
+	<p style = "font-family: berlin; color: white; font-size 12px;">Religion : Bidayuh</p>
+	
+	<p style = "font-family: berlin; color: white; font-size 12px;">Nationality :  Malaysia</p>
+	
+	<p style ="font-family: berlin; color: white; font-size 12px;">Date of Birth :  26 October 1999</p>
+	
+	<p style ="font-family: berlin; color: white; font-size 12px;"><b>Address :  No 23,Phase 6, Taman Putra Jaya,
+Jalan Tun Hussein Onn, 97000, Bintulu, Sarawak</p>
+	
+	<p style ="font-family: berlin; color: white; font-size 12px;">Contact Number :  01116445799</p>
+	
+	<p style ="font-family: berlin; color: white; font-size 12px;">Email Address : <i>graceeyna08@gmail.com</i></p>
+
+	<p style ="font-family: berlin; color: white; font-size 12px;">Marital Status :  Single</p>
 </div>
-
-
 </body>	
 </fieldset>
 
 <footer>
-	<p>Full Copyright© by Grace Ena Wilfred</p>
+	<p> Powered by W3.CSS</p>
 </footer>
 </html>
 	
